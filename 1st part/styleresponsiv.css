@@ -3,7 +3,7 @@
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20% 1fr 20%;
     height: 100vh;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 700;
 }
 
