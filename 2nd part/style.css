@@ -1,0 +1,458 @@
+.body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+@media screen and (min-width:1024px) {
+    .header {
+        display: flex;
+        background-image: url(assets/image/background.png);
+        opacity: 0.8;
+        background-repeat: no-repeat;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    .header_inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10vh;
+    }
+
+    .nav_logo {
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav_item {
+        display: inline-block;
+        margin: 1vh 2vw;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 18px;
+        color: #fff;
+    }
+
+
+    .name {
+        margin-top: 15vh;
+        font-weight: normal;
+        font-size: 64px;
+        color: #FFFFFF;
+    }
+
+    .description {
+        font-weight: normal;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .link {
+        margin-top: 25vh;
+        margin-bottom: 15vh;
+        font-weight: normal;
+        font-size: 18px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+
+    /*=====Main===========*/
+
+
+    .main {
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    /*=====About
+=========================================*/
+    .about {
+        display: flex;
+        flex-direction: column;
+        line-height: 6vh;
+        margin-bottom: 15vh;
+    }
+
+
+    .lineskills {
+        background-color: #FFFAF2;
+        ;
+    }
+
+    .h3 {
+        margin-top: 15vh;
+        font-weight: bold;
+        font-size: 24px;
+        color: #333333;
+
+    }
+
+    /*=====Skills
+=========================================*/
+
+    .skills {
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFAF2;
+        ;
+        line-height: 8vh;
+
+    }
+
+    .photo {
+        max-width: 50vw;
+        max-height: 60vh;
+
+    }
+
+    .lineskills_skills_items {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .prophile {
+        margin-right: 5vw;
+        max-height: 80vh;
+        font-weight: 600;
+        font-size: 18px;
+        color: #333333;
+
+    }
+
+    .skills_item {
+        font-weight: normal;
+        font-size: 18px;
+
+    }
+
+
+    /*=====Portfolio
+=========================================*/
+    .portfolio {
+        height: 80vh;
+    }
+
+    .portfolio_items {
+        height: 70vh;
+        display: grid;
+        justify-items: flex-start;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        margin-top: 10vh;
+
+    }
+
+    .p1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        font-weight: 600;
+        font-size: 18px;
+        color: #333333;
+
+    }
+
+    .p2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        font-weight: normal;
+        font-size: 18px;
+        color: #333333;
+
+    }
+
+    .arrow {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .works {
+        width: 40vw;
+        height: 50vh;
+        grid-column: 2/3;
+        grid-row: 2/6;
+    }
+
+    /*=====Footer================*/
+    .footer {
+        display: flex;
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: #FFFAF2;
+
+    }
+
+    .footer_nav {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .ul1,
+    .ul2,
+    .ul3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -2vw;
+        list-style-type: none;
+        line-height: 5vh;
+        font-weight: normal;
+        font-size: 18px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:414px) {
+
+    .header {
+        display: flex;
+        background-size: contain;
+        background-image: url(assets/image/bg.png);
+        opacity: 0.6;
+        background-repeat: no-repeat;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    .header_inner {
+
+        margin-top: 5vh;
+    }
+
+    .nav_logo {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: row;
+        background-image: url(assets/image/GlobalNavButton.png);
+    }
+
+    .nav_item {
+        display: inline-block;
+        margin: 1vh 2vw;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 18px;
+        color: #fff;
+    }
+
+
+    .name {
+        text-align: center;
+        margin-top: 10vh;
+        font-weight: normal;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .description {
+        text-align: center;
+        font-weight: normal;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+
+    .link {
+        text-align: center;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        font-weight: normal;
+        font-size: 13px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+
+    /*=====Main===========*/
+
+
+    .main {
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    /*=====About
+    =========================================*/
+    .about {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        line-height: 3vh;
+        margin-bottom: 5vh;
+    }
+
+
+    .lineskills {
+        background-color: #FFFAF2;
+        ;
+    }
+
+    .h3 {
+        text-align: center;
+        margin-top: 15vh;
+        font-weight: bold;
+        font-size: 24px;
+        color: #333333;
+
+    }
+
+    /*=====Skills
+    =========================================*/
+
+    .skills {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFAF2;
+        ;
+        line-height: 8vh;
+
+    }
+
+    .photo {
+        display: flex;
+        align-content: flex-start;
+        max-width: 50vw;
+        max-height: 60vh;
+
+    }
+
+    .lineskills_skills_items {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        max-height: 50%;
+        margin-top: 5vh;
+    }
+
+    .skills_item_picture {
+        max-height: 10vh;
+        max-width: 61vw;
+    }
+
+    .prophile {
+        display: flex;
+        flex-direction: column;
+        max-height: 40vh;
+        font-weight: 600;
+        font-size: 10px;
+        color: #333333;
+
+    }
+
+    .skills_item {
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+
+    }
+
+
+    /*=====Portfolio
+    =========================================*/
+    .portfolio {
+        height: 45vh;
+    }
+
+    .portfolio_items {
+        height: 55vh;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-top: 5vh;
+    }
+
+    .p1 {
+        grid-row: 1/2;
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+    }
+
+    .p2 {
+        grid-row: 2/3;
+        font-weight: normal;
+        text-align: center;
+        font-size: 12px;
+        color: #333333;
+    }
+
+    .arrow {
+        display: none;
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .works {
+        width: 100%;
+        height: 100%;
+        grid-row: 3/4;
+    }
+
+    /*=====Footer================*/
+    .footer {
+
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: #FFFAF2;
+
+    }
+
+    .footer_nav {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+
+
+    }
+
+    .ul1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        margin-left: -2vw;
+        list-style-type: none;
+        line-height: 5vh;
+        font-weight: normal;
+        font-size: 18px;
+
+    }
+
+    .ul2 {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        list-style-type: none;
+        line-height: 5vh;
+    }
+
+    .ul3 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        list-style-type: none;
+        line-height: 5vh;
+    }
+}
